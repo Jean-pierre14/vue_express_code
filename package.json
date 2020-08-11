@@ -1,0 +1,22 @@
+{
+  "name": "vue_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./server/index.js",
+    "io": "nodemon ./server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consola": "^2.15.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
